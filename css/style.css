@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?29056667');
+  src: url('../font/fontello.eot?29056667#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?29056667') format('woff2'),
+       url('../font/fontello.woff?29056667') format('woff'),
+       url('../font/fontello.ttf?29056667') format('truetype'),
+       url('../font/fontello.svg?29056667#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  margin-right: 10px;
+}
+.icon-home:before { content: '\e800'; } /* '' */
+.icon-camera:before { content: '\e801'; } /* '' */
+.icon-mail:before { content: '\f0e0'; } /* '' */
+.icon-brush:before { content: '\f1fc'; } /* '' */
+*{
+	box-sizing: border-box
+}
+html{
+	height: 100%;
+}
+body{
+	background: url('../kepek/asd2.jpg') fixed; 
+	height: 100%;
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.10)
+}
+.kép {
+	padding: 50px;
+	display: flex;
+	height: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 95%	
+}
+.bemutatkozás {
+	color: white;
+	line-height: 1.8;
+	font-size: 1.6rem;
+	margin: 1rem 0
+}
+.bemutatkozás p {
+	margin: 0 0 1rem 0
+}
+.bemutatkozás img {
+	float: right;
+	margin: 0 0 2rem 2rem;
+    border-radius: 50%
+}
+.bemutatkozás h1 {
+	font-weight: 100;
+	font-size: 5rem;
+	margin: 0 0 2rem 0
+}
+.box{
+	font-weight: 200;
+	font-size: 5rem;
+	margin: 0 0 2rem 0
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 12px 15px;
+}
+nav a:hover{
+	color: yellow;
+}
+.menü{
+	background: url('../kepek/hatter2.jpg') fixed;
+}
+.zárás img{
+	float: right;
+	margin: 0 0 2rem 2rem;
+	border-radius: 20%
+}
+.zárás h1 {
+	color: white;
+	font-weight: 100;
+	font-size: 5rem;
+	margin: 0 0 2rem 0
+}
+.zárás p {
+	margin: 0 0 1rem 0
+}
+.zárás {
+	color: white;
+	line-height: 1.8;
+	font-size: 1.6rem;
+	margin: -3.rem 0;
+}
+.kép2 {
+	padding: 50px;
+	display: flex;
+	height: 90%;
+	max-width: 900px;
+	margin: 0 auto;
+	width: 95%
+}
+.box2{
+	font-weight: 200;
+	font-size: 5rem;
+	margin: 0 0 2rem 0	
+}
+h2 a{
+	font-weight: 100;
+	color: white;
+	text-decoration: none;
+}
